@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page with CSS Features</title>
+    <link rel="stylesheet" href="section2.css"> <!-- External CSS -->
+    <style>
+        /* Internal CSS */
+        .internal-box {
+            width: 150px;
+            height: 150px;
+            background-color: rgb(16, 49, 60);
+            border: 2px solid blue;
+            box-shadow: 5px 5px 15px gray;
+            margin: 20px;
+            text-align: center;
+            line-height: 150px;
+        }
+
+        .hover-effect {
+            transition: transform 0.5s;
+        }
+
+        .hover-effect:hover {
+            transform: rotate(10deg) scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Inline CSS -->
+    <header style="background-color: #333; color: white; text-align: center; padding: 20px;">
+        <h1>CSS Demonstration Page</h1>
+    </header>
+
+    <!-- ID Selector -->
+    <div id="main-content">
+        <section class="content-section">
+            <h2>Box Model & Outline Model</h2>
+            <div class="box-model">
+                Content
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>Background Properties</h2>
+            <div class="background-demo">
+                Background Image Example
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>Text Styling</h2>
+            <p class="text-demo">
+                This is a <span class="highlight">highlighted</span> text example. It includes properties like 
+                <u>text-decoration</u>, <i>letter-spacing</i>, <b>font-size</b>, and <em>text-shadow</em>.
+            </p>
+        </section>
+
+        <section class="content-section">
+            <h2>2D Transform & Transition</h2>
+            <div class="internal-box hover-effect">
+                Hover Me!
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>3D Transform & Animation</h2>
+            <div class="cube">
+                <div class="face front">Front</div>
+                <div class="face back">Back</div>
+                <div class="face left">Left</div>
+                <div class="face right">Right</div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
