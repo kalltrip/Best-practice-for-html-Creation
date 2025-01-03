@@ -1,0 +1,575 @@
+<!-- this file is creating a webpage for indiacarz -->
+
+<!-- document and language declaration -->
+<!DOCTYPE html>
+<html lang="en">
+
+<!--   Structure of page - HEAD/HEADER BODY FOOTER -->
+
+<!-- starting head -->
+    <head>
+    <!-- title -->
+    <title>IndiaCARZ Blog</title>
+
+<!--      The line <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> is an HTML meta tag that helps control the layout and scaling of a webpage on different devices, especially mobile devices  -->
+         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!--   The line <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet"> is an HTML <link> tag that references an external CSS stylesheet for importing Google Fonts, specifically the Roboto font
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+        <!--    Links an external CSS file for styling the HTML documen --> 
+         <link rel="stylesheet" href="css/styles.css">
+<!--      Specifies a 180x180px Apple touch icon for use when the webpage is added to an iOS device's home screen -->
+         <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+<!--     Specifies a 32x32px PNG favicon. -->
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+<!--     Specifies a 16x16px PNG favicon. -->
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+<!-- This is likely intended for use on Android devices, providing a 192x192px PNG icon. -->
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/android-chrome-192x192.png">
+<!--   Another 512x512px PNG icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/android-chrome-512x512.png">
+<!--    specifying the 32x32px PNG favicon again. -->
+    <link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
+<!--   Specifies a favicon.ico file in 16x16px size -->
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon.ico">
+
+<!-- Ensuring that the page uses the latest rendering engine in Internet Explorer -->
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Setting a background color for Windows tiles when pinned to the Start Menu -->
+    <meta content="#000" name="msapplication-TileColor">
+<!-- Setting the theme color for mobile browsers, changing the appearance of the status bar -->
+    <meta content="#000" name="theme-color">
+   
+    <!-- Google Tag Manager -->
+   (function (w, d, s, l, i) {
+    w[l] = w[l] || []; // Initialize the dataLayer array if it's not already defined
+    w[l].push({
+        'gtm.start': new Date().getTime(), // Record the start time of GTM
+        event: 'gtm.js' // Push an event to the dataLayer
+    });
+    
+    var f = d.getElementsByTagName(s)[0], // Get the first script element in the document
+        j = d.createElement(s), // Create a new script element
+        dl = l != 'dataLayer' ? '&l=' + l : ''; // If the dataLayer isn't 'dataLayer', append it to the URL
+    
+    j.async = true; // Make the script load asynchronously
+    j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; // Set the source URL for the GTM script
+    
+    f.parentNode.insertBefore(j, f); // Insert the new script element before the first existing script element
+})(window, document, 'script', 'dataLayer', 'GTM-MN93XHD');
+
+    <!-- End Google Tag Manager -->
+<!--     closing head -->
+</head>
+
+<!-- Starting the body -->
+<body>
+     <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MN93XHD" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+<!--     container: The main wrapper for the content. -->
+   <div class="container">
+<!-- header: Defines the header section. -->
+        <div class="header">
+<!-- wrap: Adds alignment and spacing. -->
+            <div class="wrap">
+<!-- wrap_float: Provides additional layout control, likely for floating or alignment. -->
+                <div class="wrap_float">
+<!-- header__top: Represents the top section of the header, like a navigation bar or logo. -->     
+                    <div class="header__top">
+                
+<!--                       Phone Number Section  -->
+                         <div class="tel">
+                            <a href="tel:+91-82912-74240">+91-82912-74240</a>
+                        </div>
+<!--                           email section -->
+                     <div class="email">
+                            <a href="mailto:sales.marketing@indiacarz.com">sales.marketing@indiacarz.com</a>
+                        </div>
+<!-- social media section facebook,instagram,linkedin,twitter -->
+                         <div class="socials">
+                            <a href="https://www.facebook.com/indiacarz2/" target="_blank" class="a facebook"></a>
+                            <a href="https://www.instagram.com/india_carz/" target="_blank" class="a instagram"></a>
+                            <!-- <a href="https://www.pinterest.com/" target="_blank" class="a pinterest"></a> -->
+                            <a href="https://www.linkedin.com/company/indiacarz/" target="_blank"
+                                class="a linkedin"></a>
+                            <a href="https://twitter.com/IndiaCarz" target="_blank" class="a twitter"></a>
+                        </div>
+ <!--menu--> 
+                        
+<!-- header__bottom: Represents the bottom part of the header section, typically for navigation or branding -->
+<div class="header__bottom">
+<!-- link page indiacarz.html -->
+                        <a href="https://www.indiacarz.com/index.html" class="logo">IndiaCARZ</a>
+<!-- the navigation menu. The id="js-menu" is likely used for JavaScript to add functionality -->
+                        <div class="menu" id="js-menu">
+<!-- Add <div class="close"></div> as a placeholder for a close button in the menu. -->
+                            <div class="close"></div>
+<!--  Use <div class="scroll"> to make menu content scrollable, accommodating additional items. -->
+                            <div class="scroll">
+<!-- creating first menu item Home -->
+                                <a class="current">Home</a>
+<!-- Use <div class="scroll_wrap"><ul> to group the menu items into a list, enabling better structure and dropdown functionality with <li class="dropdown_li"> -->
+                                <div class="scroll_wrap">
+                                    <ul>
+                                        <li class="dropdown_li">
+                      
+<!--  submenu of home about us and blogs -->                                          
+                                            <div class="dropdown-menu">
+                                                <ul>
+                                                    <li><a href="https://www.indiacarz.com/home-aboutus.html">About
+                                                            us</a></li>
+                                                    <li class="dropdown_li">
+                                                        <a href="#">
+                                                            <span>Blogs</span>
+                                                        </a>
+<!--  submenu of bolgs is IndiaCARZ Introduction and IndiaCARZ Dynamic Rates -->
+                                                        <div class="submenu">
+                                                            <ul>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/blog-indiacarzblog.html">IndiaCARZ
+                                                                        - Introduction</a></li>
+                                                                <li><a href="https://www.indiacarz.com/blog-list.html">IndiaCARZ
+                                                                        - Dynamic Rates</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+<!--  second menu Login using link -->
+                                        <li>
+                                            <a href="https://www.indiacarz.com"><span>LOGIN</span></a>
+
+                                        </li>
+<!-- third menu is Airport Transfer using link -->
+                                        <li>
+                                            <a href="https://www.indiacarz.com/transfers.html"><span>Airport Transfers</span></a>
+                                        </li>                                  
+<!--  4th id Destinations   -->                                   
+<!-- submenu of destination Destinations,North India Tours,>North East India Tours,South India Tours,East India Tours,West India Tours,central india tours -->
+                                         <li class="dropdown_li">
+                                            <a href="https://www.indiacarz.com/destinations.html">
+                                                <span>Destinations</span>
+                                            </a>
+                                            <!-- <a><span onclick="window.location='tour-list.html'">Tours</span></a> -->
+                                            <div class="dropdown-menu">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.indiacarz.com/destinations.html">
+                                                            <span>Destinations</span>
+                                                        </a>
+                                                    </li>
+
+<!-- submenu of north india tours Delhi,Himachal Pradesh,Kashmir,Uttarakhand,Punjab,Chandigarh,Dehradun,Jammu,Ladakh,Srinagar,Shimla -->
+                                                    <li class="dropdown_li">
+                                                        <a href="#">
+                                                            <span>North India Tours</span>
+                                                        </a>
+                                                        <div class="submenu">
+                                                            <ul>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-northindia-delhi.html">Delhi</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-northindia-himachal.html">Himachal
+                                                                        Pradesh</a></li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-northindia-kashmir.html">Kashmir</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-northindia-uttarakhand.html">Uttarakhand</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-northindia-punjab.html">Punjab</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-northindia-chandigarh.html">Chandigarh</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-northindia-uttarakhand-dehradun.html">Dehradun</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-northindia-jammu-and-kashmir-Jammu.html">Jammu</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-northindia-ladakh.html">Ladakh</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-northindia-jammu-and-kashmir-Srinagar.html">Srinagar</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-northindia-himachal-shimla.html">Shimla</a>
+                                                                </li>
+
+                                                            </ul>
+                                                        </div>
+                                                   </li>     
+<!-- submenu of North East India Tours is,Assam,Imphal,Itanagar,Agartala,Aizawl,Dispur,Kohima,Shillong -->
+                                                    <li class="dropdown_li">
+                                                        <a href="#">
+                                                            <span>North East India Tours</span>
+                                                        </a>
+                                                        <div class="submenu">
+                                                            <ul>
+
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-northeasternindia-assam.html">Assam</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-northeasternindia-imphal.html">Imphal</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-northeasternindia-itanagar.html">Itanagar</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-northeasternindia-agartala.html">Agartala</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-northeasternindia-aizawl.html">Aizawl</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-northeasternindia-assam-dispur.html">Dispur</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-northeasternindia-kohima.html">Kohima</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-northeasternindia-shillong.html">Shillong</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+<!--   submenu of South India Tours,Telangana,Kerala,Amaravati,Banglore,Trivandrum,Chennai,Tamil Nadu,Hyderabad  -->
+                                                     <li class="dropdown_li">
+                                                        <a href="#">
+                                                            <span>South India Tours</span>
+                                                        </a>
+                                                        <div class="submenu">
+                                                            <ul>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-southindia-telangana.html">Telangana</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-southindia-kerala.html">Kerala</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-southindia-amaravati.html">Amaravati</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-southindia-bangalore.html">Banglore</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-southindia-trivandrum.html">Trivandrum</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-southindia-tamil-nadu-chennai.html">Chennai</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-southindia-tamil-nadu.html">Tamil
+                                                                        Nadu</a></li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-southindia-hyderabad.html">Hyderabad</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+<!-- submenu of East India Tours-West Bengal,Sikkim,Bhubanesawar,Gangtok,Kolkata,Patna,Ranchi -->
+                                                    <li class="dropdown_li">
+                                                        <a href="#">
+                                                            <span>East India Tours</span>
+                                                        </a>
+                                                        <div class="submenu">
+                                                            <ul>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-eastindia-west-bengal.html">West
+                                                                        Bengal</a></li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-eastindia-sikkim.html">Sikkim</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-eastindia-Bhubaneswar.html">Bhubanesawar</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-eastindia-sikkim-gangtok.html">Gangtok</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-eastindia-west-bengal-kolkata.html">Kolkata</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-eastindia-patna.html">Patna</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-eastindia-ranchi.html">Ranchi</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+<!-- submenu of west India Tours- Rajasthan,Goa,Maharashtra,Gandhinagar,Jaipur,Panaji,Udaipur,Mumbai -->
+                                                    <li class="dropdown_li">
+                                                        <a href="#">
+                                                            <span>West India Tours</span>
+                                                        </a>
+                                                        <div class="submenu">
+                                                            <ul>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-westindia-rajasthan.html">Rajasthan</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-westindia-goa.html">Goa</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-westindia-maharashtra.html">Maharashtra</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-westindia-gandhinagar.html">Gandhinagar</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-westindia-rajasthan-jaipur.html">Jaipur</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-westindia-goa-Panaji.html">Panaji</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-westindia-rajasthan-udaipur.html">Udaipur</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-westindia-mumbai.html">Mumbai</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+<!--submenu of Central India Tours- Madhya Pradesh,Uttar Pradesh,Bhopal,Lucknow,Raipur -->
+                                                    <li class="dropdown_li">
+                                                        <a href="#">
+                                                            <span>Central India Tours</span>
+                                                        </a>
+                                                        <div class="submenu">
+                                                            <ul>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-centralindia-madhya-pradesh.html">Madhya
+                                                                        Pradesh</a></li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-centralindia-uttar-pradesh.html">Uttar
+                                                                        Pradesh</a></li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-centralindia-madhya-pradesh-bhopal.html">Bhopal</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-northindia-uttar-pradesh-Lucknow.html">Lucknow</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://www.indiacarz.com/tourlist-centralindia-raipur.html">Raipur</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+<!-- submenu of Top India Tours  Kashmir,Delhi,Rajasthan,Uttarakhand-->
+                                        <li class="dropdown_li">
+                                            <a href="#">
+                                                <span>Top India Tours</span>
+                                            </a>
+                                            <!-- <a><span onclick="window.location='blog-list.html'">Blog</span></a> -->
+                                            <div class="dropdown-menu">
+                                                <ul>
+                                                    <li><a
+                                                            href="https://www.indiacarz.com/tourlist-northindia-kashmir.html">Kashmir</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="https://www.indiacarz.com/tourlist-northindia-delhi.html">Delhi</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="https://www.indiacarz.com/tourlist-westindia-rajasthan.html">Rajasthan</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="https://www.indiacarz.com/tourlist-northindia-uttarakhand.html">Uttarakhand</a>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        </li>
+<!-- 5th menu search bar -->
+                                        <li class="dropdown_li">
+                                            <a href="#">
+                                                <span>Search</span>
+                                            </a>
+                                            <!-- <a><span onclick="window.location='blog-list.html'">Blog</span></a> -->
+                                            <div class="dropdown-menu">
+                                                <ul>
+                                                    <li><a href="">Search for your ideal tour on IndiaCARZ</a></li>
+                                                    <div class="gcse-search">Search</div>
+                                                </ul>
+                                            </div>
+                                        </li>
+<!-- 6th menu contact us -->
+                                        <li>
+                                            <a href="https://www.indiacarz.com/contacts.html"><span>Contact
+                                                    Us</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+<!--create a container bottom -->
+                          <div class="bottom">
+<!--   Phone Number Section  -->
+                                    <div class="tel">
+                                        <a href="tel:+91-82912-74240">+91-82912-74240</a>
+                                    </div>
+<!-- email section -->
+                                    <div class="email">
+                                        <a href="mailto:sales.marketing@indiacarz.com">sales.marketing@indiacarz.com
+                                        </a>
+                                    </div>                
+<!-- social media section facebook,instagram,linkedin,twitter-->
+                              <div class="socials">
+                                        <div class="links">
+                                            <a href="#" class="fb"></a>
+                                            <a href="#" class="instagram"></a>
+                                            <a href="#" class="pinterest"></a>
+                                            <a href="#" class="twitter"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     <div class="mobile_btn" id="mobile_btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div><!--Hidden-->
+<!-- menu end -->
+                   </div>
+                </div>
+            </div>
+        </div>
+<!--  Breadcrumbs Container: Defines the overall container for the breadcrumb navigation. -->
+      <div class="breadcrumbs">
+<!--  Wrapper: Groups the breadcrumb content and applies styling or alignment -->
+            <div class="wrap">
+<!--   Float Wrapper: Organizes the content, often for layout purposes like centering. -->
+                <div class="wrap_float">
+<!--  Home Link: A clickable link that redirects to the homepage. -->
+                    <a href="#">Home</a>
+<!-- Separator: Displays a forward slash ("/") to separate breadcrumb items. -->
+                    <span class="separator">/</span>
+<!-- Current Page: Represents the current page with a styled link indicating it's the active one. -->
+                    <a href="#" class="current">IndiaCARZ Blog-list</a>
+                </div>
+            </div>
+        </div>
+<!--       link of Home / IndiaCARZ Blog-list -->
+
+            
+<!--         backgroumg image url -->
+<!-- 4div and write tittle 'IndiaCARZ Blog' -->
+<!--     link the page indiacarzblog.html -->
+<!--     "background-image: url -->                        
+<!-- class="_title"  IndiaCARZ Introduction­ -->
+<!--    text of indiacarz introduction       -->
+<!--link the page indiacarzblog.html -->
+<!--   background-image: url -->
+<!--     tittle of  IndiaCARZ - Dynamic Rates -->
+<!--          text  of  IndiaCARZ - Dynamic Rates -->
+<!-- Create a container (sidebar) to hold the sidebar content.
+Create a section (categories--list) inside the sidebar for organizing the categories.
+Add a title (block-title) for the category section.
+Optionally, create a list of category links (<ul>) inside the categories section. -->
+
+<!-- Create the Sidebar Container -->
+<!-- Create the Categories List Section -->
+<!-- Add a Title for the Categories Section -->
+<!-- Create the Unordered List to Hold Categories -->
+<!--  Add List Items for Each Category -->
+<!--  count 1 for tittle North India  -->
+<!--  count 2 for tittle East India  -->
+<!-- count 3 for tittle West India -->
+<!-- count 4 for tittle North Eastern India -->
+<!-- count 5 for tittle Central India -->
+                    
+                  
+<!--   Add a div with the class text_widget with bg-color for the main container of the widget. -->
+<!-- Inside the widget, add a div with the class _title to hold the title  -->
+<!-- Add a div with the class _text to hold the body of the text (the fact) -->
+                        
+<!--   'Recent Photos' Container  /Block Title:   -->
+<!-- photo container -->
+<!-- img1 atag,img2 atag,img3 atag,img4 atag,img5 atag,img6 atag,img7 atag,img8 atag,img9 atag -->
+
+<!--  starting footer -->
+<!-- logo IndiaCarz
+and text  -->
+<!--        footer menu top -->
+<!-- Home,Destinations,Tour,Blog,Privacy,Terms of Use -->
+<!--     social media section facebook,instagram,linkedin,twitter-->
+
+<!--   footer center -->
+<!-- link Indiacarz -->
+<!--            text -->
+
+<!-- "footer_center_menu" -->
+link Newsletter 
+link Family Friendly Tours
+link Outdoor Activites
+Relaxation Tours
+City Tours
+Holiday & Seasonal Tours
+Cultural & Thematic Tours
+Wild & Adventure Tours
+
+<!-- footer center right -->
+tittle CONTACTS
+Address: 
+tel:
+email:
+
+<!--social media section facebook,instagram,linkedin,twitter-->
+                      
+<!-- footer_bottom -->
+Copyright 2024<a href="#"> Kall Trip Pvt Ltd</a> | All Rights Reserved
+            
+<!-- Create a Container for the Search Form:
+Wrap the Form Elements
+Add the Search Input Field
+Add a Submit Button
+Add a Close Button -->
+
+
+
+
+<!-- style="display: none -->
+<!-- create container  -->
+<!-- wrap class -->
+<!-- modal-head class -->
+<!--         img -->
+                  
+<!-- class="modal-body" -->
+<!--     discount -->
+<!-- new -->
+<!--   class=modal-title/ text -->
+            
+<!--  class="fields" -->
+<!-- a container element for the form field -->
+<!-- class filed half -->
+<!-- name 
+input type texr -->
+<!-- email address
+type email -->
+<!-- travel date
+text -->
+<!-- person text -->
+<!-- your enquiry -->
+<!--     btn submit -->
+
+<!-- link Google Maps API -->
+<!-- link jQuery -->
+<!-- jQuery UI -->
+<!-- link Slick Carousel -->
+<!-- Arctic Modal -->
+<!-- link LightGallery -->
+<!-- link jQuery Spincrement -->
+<!-- Custom Scripts (scripts.js) -->
+    
+
