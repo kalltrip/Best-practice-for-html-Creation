@@ -77,8 +77,7 @@
 <!-- wrap_float: Provides additional layout control, likely for floating or alignment. -->
                 <div class="wrap_float">
 <!-- header__top: Represents the top section of the header, like a navigation bar or logo. -->     
-                    <div class="header__top">
-                
+                    <div class="header__top">              
 <!--                       Phone Number Section  -->
                          <div class="tel">
                             <a href="tel:+91-82912-74240">+91-82912-74240</a>
@@ -460,10 +459,21 @@
                 </div>
             </div>
         </div>
-<!--       link of Home / IndiaCARZ Blog-list -->
 
             
 <!--         backgroumg image url -->
+<div class="image_bg--single"
+            style="background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/indiacarz_blog/indiacarz_blog_blog-list_bg_leaf.jpg);">
+        </div>
+<!--page_content blog-page: Defines the main container for the blog page content with styling for the page layout.-->
+<div class="page_content blog-page">
+<!--Wrapper (wrap): Groups and aligns the content within the blog page for consistent styling and spacing-->
+            <div class="wrap">
+                <div class="wrap_float">
+                    <div class="title">
+                        IndiaCARZ Blog
+                    </div>
+
 <!-- 4div and write tittle 'IndiaCARZ Blog' -->
 <!--     link the page indiacarzblog.html -->
 <!--     "background-image: url -->                        
