@@ -469,12 +469,58 @@
 <div class="page_content blog-page">
 <!--Wrapper (wrap): Groups and aligns the content within the blog page for consistent styling and spacing-->
             <div class="wrap">
+<!--Float Wrapper (wrap_float): Further organizes the layout, often used for centering or float-based designs.-->
                 <div class="wrap_float">
+<!--Title Section (title): Displays the title "IndiaCARZ Blog" prominently on the blog page.-->
                     <div class="title">
                         IndiaCARZ Blog
                     </div>
 
-<!-- 4div and write tittle 'IndiaCARZ Blog' -->
+Main Section (main): Represents the primary container for the blog content.
+<div class="main">
+Blog List (blog-list): Groups all blog items for display as a list or grid.
+                        <div class="blog-list">
+Blog Item Link (blog-item): A clickable element linking to the detailed blog article page.
+                            <a href="https://www.indiacarz.com/blog_indiacarzblog.html" class="blog-item">
+Image Container (_img): Displays a blog image as a background using an inline background-image style, enhancing visual appeal.
+                             <div class="_img"
+                                    style="background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/indiacarz_blog/indiacarz_blog_article_1_car.jpeg)">
+Square Parent (sq_parent): Maintains a consistent aspect ratio for the image, ensuring it stays square.
+Square Wrapper (sq_wrap): Further controls the square layout, ensuring uniformity.
+                                    <div class="sq_parent">
+                                        <div class="sq_wrap">
+                                            <div class="sq_content"></div>
+                                        </div>
+                                    </div>
+Square Content (sq_content): Placeholder for additional image overlays or effects (currently empty).
+Break Tags (<br>): Adds spacing between the image and the title section.
+Date Section (_date) (Commented Out): Previously displayed the blog post date and category, but is now hidden.
+Title (_title): Displays the blog title, "IndiaCARZ Introduction."
+Text Content (_text): Contains a brief introduction to IndiaCARZ, highlighting its innovative approach to car rental services and upcoming blog topics.
+                                
+                                </div>
+
+                                <br>
+                                <br>
+                                <br>­
+                                <!-- <div class="_date">JUNE 6/2019 | UNCATEGORIZED</div> -->
+                                <div class="_title">
+                                    IndiaCARZ Introduction
+                                </div>
+                                <div class="_text">
+                                    Welcome to a completely new service. IndiaCARZ is said to be the biggest revolution
+                                    in car rental service in the last 50 years.
+
+                                    Our founders have reimagined the entire car rental ecosystem, putting the customer's
+                                    needs first.
+
+                                    So look forward to quality cars, experienced and friendly chauffeurs, and a rate
+                                    review rating system for all services.
+
+                                    In the forthcoming blogs, we discussed the novel aspects that make IndiaCARZ.com so
+                                    unique.
+                                </div>
+                            </a>
 <!--     link the page indiacarzblog.html -->
 <!--     "background-image: url -->                        
 <!-- class="_title"  IndiaCARZ Introduction­ -->
