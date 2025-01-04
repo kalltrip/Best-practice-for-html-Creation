@@ -14,7 +14,7 @@
 
     <!--      The line <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> is an HTML meta tag that helps control the layout and scaling of a webpage on different devices, especially mobile devices  -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    
+
     <!--   The line <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet"> is an HTML <link> tag that references an external CSS stylesheet for importing Google Fonts, specifically the Roboto font-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
 
@@ -76,17 +76,17 @@
     <div class="container">
         <!-- header: Defines the header section. -->
         <div class="header">
-            <!-- wrap: Adds alignment and spacing. -->
+            <!-- wrap: Adds alignment and spacing. in header top -->
             <div class="wrap">
-                <!-- wrap_float: Provides additional layout control, likely for floating or alignment. -->
+                <!-- wrap_float: Provides additional layout control, likely for floating or alignment. for top menu  -->
                 <div class="wrap_float">
-                    <!-- header__top: Represents the top section of the header, like a navigation bar or logo. -->
+                    <!-- header__top: Representing the top section of the header, like a navigation bar or logo. -->
                     <div class="header__top">
-                        <!--                       Phone Number Section  -->
+                        <!--Phone Number Section  -->
                         <div class="tel">
                             <a href="tel:+91-82912-74240">+91-82912-74240</a>
                         </div>
-                        <!--                           email section -->
+                        <!--email section -->
                         <div class="email">
                             <a href="mailto:sales.marketing@indiacarz.com">sales.marketing@indiacarz.com</a>
                         </div>
@@ -99,8 +99,8 @@
                                 class="a linkedin"></a>
                             <a href="https://twitter.com/IndiaCarz" target="_blank" class="a twitter"></a>
                         </div>
-                        <!--menu-->
 
+                        <!--menu-->
                         <!-- header__bottom: Represents the bottom part of the header section, typically for navigation or branding -->
                         <div class="header__bottom">
                             <!-- link page indiacarz.html -->
@@ -118,7 +118,7 @@
                                         <ul>
                                             <li class="dropdown_li">
 
-                                                <!--  submenu of home about us and blogs -->
+                                                <!--  submenu of home - about us and blogs using bootstrap-->
                                                 <div class="dropdown-menu">
                                                     <ul>
                                                         <li><a href="https://www.indiacarz.com/home-aboutus.html">About
@@ -382,9 +382,7 @@
                                                 </a>
                                                 <!-- <a><span onclick="window.location='blog-list.html'">Blog</span></a> -->
                                                 <div class="dropdown-menu">
-                                                    <!-- Each <li> represents a navigation item:
-                                                        <a>: Hyperlinks to the respective pages.
-                                                         -->
+                                                    <!-- Each <li> representing a navigation item:<a>: Hyperlinks to the respective pages.-->
                                                     <ul>
                                                         <li><a
                                                                 href="https://www.indiacarz.com/tourlist-northindia-kashmir.html">Kashmir</a>
@@ -450,11 +448,10 @@
                                 <span></span>
                                 <span></span>
                             </div><!--Hidden-->
-                            <!-- menu end -->
-                        </div>
-                    </div>
-                </div>
-            </div>
+                        </div><!-- menu end -->
+                    </div><!-- header top End -->
+                </div> <!-- wrap_float end -->
+            </div><!-- wrap End -->
             <!--  Breadcrumbs Container: Defines the overall container for the breadcrumb navigation. -->
             <div class="breadcrumbs">
                 <!--  Wrapper: Groups the breadcrumb content and applies styling or alignment -->
@@ -469,8 +466,7 @@
                         <a href="#" class="current">IndiaCARZ Blog-list</a>
                     </div>
                 </div>
-            </div>
-
+            </div><!-- end breadcrumbs -->
 
             <!--         backgroumg image url -->
             <div class="image_bg--single"
@@ -598,7 +594,7 @@
                         </div>
 
                         <!-- Create a container (sidebar) to hold the sidebar content. Create a section (categories--list) inside the sidebar for organizing the categories.
-    Add a title (block-title) for the category section.Optionally, create a list of category links (<ul>) inside the categories section. -->
+         Add a title (block-title) for the category section.Optionally, create a list of category links (<ul>) inside the categories section. -->
                         <div class="sidebar">
                             <div class="categories--list">
                                 <!-- Block Title (block-title): Displays the heading "Categories" for the list -->
@@ -924,7 +920,7 @@
                     Copyright 2024<a href="#"> Kall Trip Pvt Ltd</a> | All Rights Reserved
                 </div>
             </div>
-        </div>
+        </div><!-- header end -->
 
         <!-- Create a Container for the Search Form:Wrap the Form Elements,Add the Search Input Field,Add a Submit Button,Add a Close Button -->
 
@@ -1045,7 +1041,8 @@
         <script defer src="https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_assets/js/slick.min.js"></script>
         <!-- Arctic Modal -->
         <!-- This script loads the minified version of Arctic Modal, a jQuery plugin for creating modal dialogs, from the AWS S3 bucket asynchronously. -->
-        <script defer src="https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_assets/js/jquery.arcticmodal.min.js"></script>
+        <script defer
+            src="https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_assets/js/jquery.arcticmodal.min.js"></script>
         <!-- link LightGallery -->
         <!-- This script loads the LightGallery plugin, which enables a gallery of images with lightbox functionality, from the AWS S3 bucket asynchronously. -->
         <script defer src="https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_assets/js/lightgallery.js"></script>
@@ -1056,3 +1053,9 @@
         <!-- Custom Scripts (scripts.js) -->
         <!-- This script loads a custom scripts.js file from the AWS S3 bucket asynchronously, which likely contains additional JavaScript functionality specific to the website. -->
         <script defer src="https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_assets/js/scripts.js"></script>
+    </div>
+
+
+
+</body>
+</head>
